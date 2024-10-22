@@ -77,7 +77,7 @@ Testing	1 Day	08/14/2024	08/16/2024	08/16/2024
 Delivery	1 Day	08/16/2024	08/16/2024	08/16/2024
 Maintenance	1 Day	08/19/2024	Ongoing/Quarterly	Ongoing/Quarterly
 
-### C. Data Collection Process
+## C. Data Collection Process
 
 The data was collected by filtering the specific criteria: median sales price (Raw, SFR only, Monthly) from https://www.zillow.com/research/data/.  The data is downloaded as a .csv file.  There were no changes or variations to the data collection from the original project plan.  
 The data provided by Zillow is a quality product and provides the necessary fields to complete a thorough analysis of the housing data.  While some regions (cities) are missing median sales value, they appear absent in the earliest years, which could be due to how recently those regions made the data available.  The data used in this project is complete and readily available.  According to the research principles provided on their About page they state, “Zillow Research benchmarks findings against outside datasets whenever possible to ensure accuracy and appropriate context.” (Zillow, n.d)
@@ -88,7 +88,7 @@ The data and information used for this project are free and open source to the p
 One of the advantages of the data set for this project was using Zillow’s compiled information.  Zillow is a national company that has gathered public data from most major cities nationwide and compiled it into a single source.  In addition to gathering data, they have compiled more than sixteen years of housing sales data and continually add to it monthly, making the dataset span multiple years for a comprehensive analysis.  For this specific project, we were able to look at median sales values for the five largest regions in Utah, dating all the way back to 2014. 
 One disadvantage of the data set was its limited information outside the median sales price.  While there are over sixteen years and hundreds of regions of data compiled into one data set, there are no other metrics provided.  While this project did not account for significant interest rates or economic changes, no other data was provided to indicate why sales prices were increasing.  This may have indicated why there may have been fluctuations in the historical information.
 
-### D. Data Extraction and Preparation
+## D. Data Extraction and Preparation
 
 To access the data, we navigate to https://www.zillow.com/research/data/ under the Sales heading and set criteria for median sales price (Raw, SFR only, Monthly) from the drop-down menu.  This will generate a .csv file that can be saved/exported to a local drive.  Once the file has been saved, it can be read into a Python environment to prepare it for use.  Once read into Python, the file will be trimmed down to include only the five largest regions (cities) in Utah.  A null value check will then be performed, and null values will be removed. The data is then transposed so it can be used for the charts.  As the file contains information for the past 16 years, we removed any dates older than ten years.  Finally, the date column is updated to a datetime field.
 
