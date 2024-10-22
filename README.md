@@ -157,7 +157,8 @@ The second recommendation is to use the same reports for stakeholders.  While it
 
 <https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7b278b65-02a5-4844-8d66-b1dc00206153>
 
-References
+### References
+
 Zillow (n.d). About Zillow Research. Zillow.com
 Retrieved August 18, 2024, from <https://www.zillow.com/research/about-us/>
 
